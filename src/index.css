@@ -4,7 +4,7 @@ body {
   align-items: center;
   min-height: 100vh;
   /* background:linear-gradient(#8a2eff,#b4d2ff); */
-  background-color: #f00;
+  background-color: #f0f;
 }
 body::before{
   content: '';
