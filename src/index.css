@@ -3,7 +3,8 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background:linear-gradient(#8a2eff,#b4d2ff);
+  /* background:linear-gradient(#8a2eff,#b4d2ff); */
+  background-color: #f00;
 }
 body::before{
   content: '';
