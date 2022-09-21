@@ -1,6 +1,6 @@
 import React from "react"
 
-function Item({ todo, i }) {
+function Item({ todo}) {
     return (
         <div className="text">
             <h2> {todo.title}</h2>
