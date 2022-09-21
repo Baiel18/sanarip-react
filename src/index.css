@@ -3,13 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  /* background:linear-gradient(#8a2eff,#b4d2ff); */
-/* <<<<<<< HEAD */
-  /* background-color: #f0f0; */
-  /* background-color: #2197f3; */
-/* ======= */
-  background-color: #f0f;
-/* >>>>>>> a52dbf68109ffa63c194c031d6c58b9b197d2ed6 */
+  background-color: #f00;
 }
 body::before{
   content: '';
