@@ -2,7 +2,7 @@ import React from "react"
 
 function Item({ todo}) {
     return (
-        <div className="text">
+        <div className="text" data-aos="fade-right">
             <h2> {todo.title}</h2>
             <div className="card">
                 <img src={todo.img}/>
