@@ -1,4 +1,6 @@
 import React, {useState, useRef} from "react";
+import UrokTwo from './Urok-two'
+import UrokTree from './UrokTree'
 
 function AppOne(){
     const [count,setCount] = useState(0)
@@ -11,7 +13,6 @@ function AppOne(){
     }
     function getValue(){
         setValue(+inputRef.current.value * +inputRef.current.value )
-
     }
 
    
@@ -24,10 +25,12 @@ function AppOne(){
             <span>{count}</span>
             <button onClick={decrement}>-</button>
 
-            <input type="text" name="name" ref={inputRef}/>
+            <input className="input" type="text" name="name" ref={inputRef}/>
             <button onClick={getValue}>on</button>
                  <span>{value}</span>
-        
+
+        <UrokTwo />
+        <UrokTree />
             
         </div>
     )
