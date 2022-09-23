@@ -17,7 +17,7 @@ function AppOne(){
    
   
     return(
-        <div>
+        <div className="counter">
             <button onClick={()=>{
                 setCount(count + 1)
             }}>+</button>
