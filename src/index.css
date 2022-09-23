@@ -97,5 +97,7 @@ button{
   background: rgba(246, 246, 241, 0.15);
 }
 
-
+.counter{
+  z-index: 1;
+}
 
