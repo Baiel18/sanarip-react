@@ -3,41 +3,14 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: rgb(62, 26, 75);
+  background: no-repeat;
+  background-size: cover;
+  background-image: url('https://images.unsplash.com/photo-1663787652609-57b525eb6ee6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMjV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
 }
-
-body::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(#f00, #f0f);
-  clip-path: circle(30% at right 70%);
-}
-
-body::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(#f3bf21, rgb(255, 221, 0));
-  clip-path: circle(20% at 8% 30%);
-}
-
 p {
   font-size: 60px;
   color: rgb(39, 12, 191);
 }
-
-.card {
-  display: flex;
-  gap: 10px;
-}
-
 button {
   border-radius: 20px;
   padding: 10px;
@@ -56,12 +29,14 @@ button {
   color: rgb(50, 236, 239);
   background-color: blueviolet;
   padding: 10px 25px;
+  z-index: 2;
 }
 
 .uroktree {
   color: rgb(0, 8, 255);
   background-color: rgb(226, 125, 43);
   padding: 10px 25px;
+  z-index: 3;
 }
 
 .p {
