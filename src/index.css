@@ -27,16 +27,18 @@ button {
 
 .uroktwo {
   color: rgb(50, 236, 239);
-  background-color: blueviolet;
+  background-color: rgb(93, 73, 112);
   padding: 10px 25px;
   z-index: 2;
+  border-radius: 20px;
 }
 
 .uroktree {
   color: rgb(0, 8, 255);
-  background-color: rgb(226, 125, 43);
+  background-color: rgb(161, 157, 154);
   padding: 10px 25px;
   z-index: 3;
+  border-radius: 20px;
 }
 
 .p {
